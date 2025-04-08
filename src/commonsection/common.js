@@ -246,11 +246,11 @@ const ConnectWithMe = () => (
 );
 
 const socialMediaInformation = [
-  {
-    icon: "fab fa-youtube fa-2x",
-    link: "https://www.youtube.com/channel/UCafv0dsb4Xp8sSWoKdmw5BQ",
-    color: "red",
-  },
+  // {
+  //   icon: "fab fa-youtube fa-2x",
+  //   link: "https://www.youtube.com/channel/UCafv0dsb4Xp8sSWoKdmw5BQ",
+  //   color: "red",
+  // },
 
   {
     icon: "fab fa-github fa-2x",
@@ -301,7 +301,7 @@ const Footer = () => (
           </h2>
           <a
             className="email"
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=sribhashyamrithvik@gmail.com"
+            href="mailto:sribhashyamrithvik@gmail.com"
             target="_blank"
             rel="noreferrer"
           >

@@ -7,24 +7,15 @@ const SkillSetComponent = () => {
     Frontend: {
       category: 3,
       all_categories: {
-        Web: [
-          "HTML5",
-          "CSS3",
-          "Javascript",
-          "React.js",
-          "Next.js",
-          "Bootstrap",
-          "Tailwind CSS",
-          "Material UI",
-        ],
-        Mobile: ["Flutter"],
+        Web: ["HTML5", "CSS3", "Javascript", "React.js", "Next.js"],
+        UI: ["Bootstrap", "Tailwind CSS", "Material UI"],
         // "State Management": ["Redux", "Provider"],
       },
     },
     Backend: {
       category: 1,
       all_categories: {
-        Backend: ["Node.js", "Express.js", "REST APIs", "Flask"],
+        Backend: ["Node.js", "Express.js"],
         // Mobile: ["Flutter"],
       },
     },
@@ -37,19 +28,19 @@ const SkillSetComponent = () => {
     Database: {
       category: 1,
       all_categories: {
-        Database: ["MySQL", "MongoDB", "SQLite"],
+        Database: ["MySQL", "MongoDB"],
       },
     },
     "Tools Used": {
       category: 1,
       all_categories: {
-        "Tools Used": ["NPM", "Github", "next.JS"],
+        "Tools Used": ["NPM", "Git", "Docker", "Kubernetes"],
       },
     },
     "Other Skills": {
       category: 1,
       all_categories: {
-        "Other Skills": ["Analytical Skills", "Problem Solving"],
+        "Other Skills": ["Analytical Skills", "Problem Solving Skills"],
       },
     },
   };

@@ -29,8 +29,8 @@ const AboutPage = () => {
                   Hyderabad, India. Working with Front-end and MERN technologies with having a great passion for learning
                   new technologies.<br /><br />
   
-                  Love to create Website, Web App, Android App with Making and Managing APIs. Having Experience to Work in Full Stack Projects. 
-                  Working as a full-time Full Stack Web Developer in a startup. Beside that, working on some of my personal projects and learning new technologies. Also creating content on youtube about various technologies.`
+                  Interested in Data Science, Machine Learning and Deep Learning and have deep interest in AI applications. 
+                  Working as a full-time Full Stack Web Developer in a startup. Beside that, working on some of my personal projects and learning new technologies.`
               )
               .start();
           }}

@@ -10,7 +10,7 @@ const EducationComponent = () => {
 
 const educationDetails = [
   {
-    title: "Master of Technology (Systems and Signal Processing)",
+    title: "Master of Technology (SSP)",
     courseDuration: "2020 - 2022",
     instituteName: "JNTUH College of Engineering, Hyderabad",
     score: "CGPA 8.6",

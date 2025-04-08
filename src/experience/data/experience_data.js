@@ -1,27 +1,28 @@
 export const experienceDataCollection = [
   {
-    startDate: "April 2, 2025",
+    startDate: "March 1, 2025",
     endDate: "Present",
-    title: "Software Developer",
+    title: "DevOps Engineer",
     details:
-      "1. Work with different types of Flutter Apps<br/><br/>2. Made some apps from scratch<br/><br/>3. Made APIs that use in full-scale Flutter projects<br/><br/>4. Managing a team as team leader<br/>and more...",
-    company: "Aim2Excel",
+      "1. Creating and Managing Instances <br/> 2.Configuring tools like Git, Chef, Ansible, Terraform <br/> 3. Managing Kubernetes infrastructure .",
+    company: "Aith Cloud Solutions",
   },
   {
     startDate: "March 2, 2024",
-    endDate: "March 30, 2025",
-    title: "Software Developer Intern",
+    endDate: "February 28, 2025",
+    title: "Software Developer",
     details:
-      "1. Automatic Theme Changer With State Management<br/><br/>2. Connect With Backend and API Integration<br/><br/>3. Worked With Pagination Concept<br/><br/>4. Make Some Apps from Scratch With Others<br/>and more...",
-    company: "Aim2Excel",
+      // "1. Automatic Theme Changer With State Management<br/><br/>2. Connect With Backend and API Integration<br/><br/>3. Worked With Pagination Concept<br/><br/>4. Make Some Apps from Scratch With Others<br/>and more...",
+      "1. Front end web development of application <br/> 2. Connecting front end app with Databases",
+    company: "Aith Cloud Solutions",
   },
   {
     startDate: "Aug 1, 2023",
     endDate: "February 25, 2024",
     title: "Machine Learning Intern",
     details:
-      "Works on Social Authentication, Payment Gateway Integration, Data Store with SQLite",
-    company: "The Sparks Foundation",
+      "Works on Machine learning, Deep learning and Computer Vision applications and developed new technique for vision processing",
+    company: "iNeuron technologies pvt ltd.",
   },
   // {
   //   startDate: "March 2021",

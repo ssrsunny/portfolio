@@ -26,7 +26,7 @@ const MiddleSection = () => {
         data-aos="zoom-in"
         data-aos-duration="1000"
         data-aos-delay="1000"
-        className="h-25 img-fluid"
+        className="h-25 img-fluid rounded-circle"
       />
       <h3
         className="display-5 fw-bold home-page-my-name mt-2 aos-removal-class"
@@ -40,7 +40,7 @@ const MiddleSection = () => {
         data-aos="fade-up"
         data-aos-duration="2000"
       >
-        What you seek is seeking you
+        {/* What you seek is seeking you */}
       </h6>
       <AutoTypingHelper />
     </div>
@@ -62,7 +62,8 @@ const AutoTypingHelper = () => {
             "Developer From India",
             "I am a full-time Software Developer",
             "Enthusiastic to learn Data Science, AI and ML",
-            "Also works on full stack Web Development",
+            "Works on full stack Web Development",
+            "Lives with ChatGPT 😉",
           ],
           autoStart: true,
           loop: true,
