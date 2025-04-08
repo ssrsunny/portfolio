@@ -1,0 +1,587 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Montserrat&family=Mulish&family=Nunito&family=Open+Sans+Condensed:wght@300&family=Poppins:wght@300&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Montserrat&family=Mulish&family=Nunito&family=Open+Sans+Condensed:wght@300&family=Poppins:wght@300&family=Raleway&family=Roboto&display=swap");
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* Common Section */
+
+.top-nav-bar {
+  transition: all 0.5s;
+  backdrop-filter: blur(30px);
+  background-color: rgba(256, 256, 256, 0.72);
+}
+
+.my-name {
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+}
+
+.nav-item a {
+  color: #adb5bd;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.social-media-container {
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  writing-mode: vertical-rl;
+  padding-top: 4 rem;
+  transform: rotate(180deg) skew(360deg, 0deg);
+  opacity: 1;
+}
+
+.social-media-container a {
+  text-decoration: none;
+}
+
+.social-media-container-item {
+  padding-bottom: 1.8rem;
+  color: #050505;
+  font-size: 1rem;
+}
+
+.social-links {
+  left: 1.5%;
+}
+
+/* Common Section Ends */
+
+/* Home Section Starts */
+.bg-home-section {
+  /* Make Contents middle of screen */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  font-weight: 800;
+}
+
+.bg-home-section .home-page-status {
+  font-size: 1.25rem;
+}
+
+.auto-typing {
+  font-size: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Karla", sans-serif;
+}
+
+/* Home Section Ends */
+
+/*About Page */
+
+/*About page Ends here */
+
+/* Certificate Section */
+
+.certificate-container {
+  border-radius: 12px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.certificate-container img {
+  border-radius: 12px;
+  box-shadow: 5px 5px 15px 1px rgb(0 0 0 / 15%);
+}
+
+.certificate-container:hover {
+  box-shadow: 0px 15px 50px rgb(0 0 0 / 15%);
+}
+
+.certificate-add-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(49, 253, 100, 0.5);
+}
+
+/* Certificate Section Ends */
+
+/* Skill Section starts */
+
+.skill-set-card {
+  border: none;
+  box-shadow: 0 0 1rem 0rem rgb(83 143 251 / 0.6);
+  transition: all 0.5s;
+}
+
+.skill-card-header .card-header {
+  border: 0;
+}
+
+.skill-card-header {
+  background: linear-gradient(180deg, #538ffb, #538ffb);
+  border: 0;
+  font-size: 1.25rem;
+}
+.skill-set-card .domain-options {
+  background: linear-gradient(180deg, #538ffb, #538ffb);
+  border: 0;
+}
+
+.skill-set-card .card-body {
+  border-radius: 0 0 3px 3px;
+  background: linear-gradient(180deg, #538ffb, #5b54fa);
+}
+
+.skill-set-card .domain-options .card-header-tabs .nav-item a {
+  color: white;
+}
+
+.skill-set-card .domain-options .card-header-tabs .nav-item a:hover {
+  color: white;
+}
+
+.certificate-add-button,
+.project-domain-type,
+.project-add-button {
+  background: #4dd637;
+  transition: all 0.5s;
+}
+
+.selected-project-domain-type {
+  transition: all 0.5s;
+  border: 1.5px solid #4dd637;
+}
+
+.selected-category-text .selected-category-text:hover {
+  color: #4dd637;
+}
+
+.selected-project-domain-type:hover {
+  transform: scale(1.4);
+}
+
+.project-add-button:hover {
+  box-shadow: 0 0 0 0.25rem rgba(77, 214, 55, 0.5);
+}
+
+.new-project-add-button {
+  background: #f4be2c;
+  transition: all 0.5s;
+}
+
+.project-domain-type:hover {
+  box-shadow: 0 0 0 0.25rem rgba(77, 214, 55, 0.5);
+}
+
+.project-add-button:focus,
+.new-project-add-button:hover {
+  box-shadow: 0 0 0 0.25rem #f4be2c80;
+}
+
+/* Skill Section Ends */
+
+/* Project Section */
+
+.project-container {
+  cursor: pointer;
+  transition: all 0.5s;
+  border: 0;
+  box-shadow: 0 0 1rem 0rem rgb(83 143 251 / 0.6);
+  border-radius: 0 0 8px 8px;
+}
+
+.project-container img {
+  border-radius: 8px 8px 0px 0px;
+}
+/* 
+.project-container:hover {
+  box-shadow: 0px 0px 15px 20px rgb(56 56 56 / 7%);
+} */
+
+.project-container .card-body .card-inside-hover-body {
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 0;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
+  transition: all 1s;
+  border-radius: 8px;
+  cursor: default;
+}
+
+.project-container .card-body .card-inside-hover-body .project-github-link {
+  width: 40px;
+  cursor: pointer;
+}
+
+.project-container .card-body .card-inside-hover-body:hover {
+  background-color: rgb(91, 84, 250, 0.7);
+  opacity: 1;
+}
+
+/* For Mansory Grid */
+.my-masonry-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -30px;
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px;
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column > div {
+  margin-bottom: 30px;
+}
+
+/* For Image Card */
+.imageCard {
+  transition: 1s ease;
+}
+
+.imageCard:hover {
+  box-shadow: 0 0 1.5rem rgba(255, 255, 255, 0.5);
+}
+
+/* Project Section Ends Here */
+
+/* Education Section Starts Here */
+
+.bg-education-section {
+  overflow: hidden;
+}
+/* Education Section Ends Here */
+
+/* Footer section Starts Here */
+
+.footer {
+  background: #f8f8f8;
+  backdrop-filter: blur(30px);
+  width: 100%;
+  height: 70vh;
+}
+
+.footer .email {
+  font-size: 1.6rem;
+  letter-spacing: 1.5px;
+  color: #f8f8f8;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+
+  transition: all 0.5s;
+}
+
+.footer .email:hover {
+  color: #1b98f5;
+  text-shadow: -1px -1px 0 #1b98f5, 1px -1px 0 #1b98f5, -1px 1px 0 #1b98f5,
+    1px 1px 0 #1b98f5;
+}
+
+.footer .social-icons ul li {
+  color: white;
+}
+
+.footer .copy {
+  font-size: 1rem;
+}
+
+/* Footer Section Ends Here */
+
+/* Contact Section Starts Here */
+
+.contact-page .image img {
+  height: 443px;
+}
+
+.contact-page button {
+  background-color: #3dbe29;
+  border: 0;
+  transition: all 0.5s;
+}
+
+.contact-page button:hover {
+  background-color: #3dbe29;
+}
+.contact-page button:focus {
+  background-color: rgb(61, 190, 41);
+  box-shadow: 0 0 0 0.25rem rgba(61, 190, 41, 0.5);
+}
+
+.contact-page .contact-for-freelancing ol li {
+  font-size: 1rem;
+}
+
+.contact-page .contact-for-freelancing .services-heading {
+  font-size: 1.25rem;
+}
+
+/* Contact Section Ends Here */
+
+/* About Page Starts */
+
+.about-page {
+  width: 70%;
+}
+
+.about-page h2 {
+  font-size: 2rem;
+  color: #f8f8f8;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  transition: all 0.5s;
+  letter-spacing: 1.5px;
+}
+
+.heading-border{
+  font-size: 3rem;
+  color: #f8f8f8;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  transition: all 0.5s;
+  letter-spacing: 1.5px;
+}
+
+/* .about-page h2:hover {
+  color: #1b98f5;
+  text-shadow: -1px -1px 0 #1b98f5, 1px -1px 0 #1b98f5, -1px 1px 0 #1b98f5,
+    1px 1px 0 #1b98f5;
+    transform: scale(1.4);
+} */
+
+.about-page p,
+.about-page p a {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+
+/* About Page Ends */
+
+/* Admin Site From Here */
+
+/* Admin Login Page Start From Here */
+
+.admin-login-bg {
+  background-color: #f6f6f6;
+}
+
+.admin-login-bg .card {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+/* Admin Login Page Ends Here */
+
+/* Admin Dashboard Page */
+
+.admin-dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  font-weight: 800;
+}
+
+.admin-dashboard h4 {
+  font-size: 5rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  transition: all 0.5s;
+  letter-spacing: 1.5px;
+}
+
+.admin-dashboard p {
+  letter-spacing: 1.5px;
+}
+
+/* Admin Dashboard Page Ends */
+
+.tag {
+  background-color: rgb(61, 190, 41);
+  font-size: 0.8rem;
+  border-radius: 40px;
+}
+
+@media (max-width: 768px) {
+  .social-links {
+    left: 3%;
+  }
+}
+
+@media (max-width: 576px) {
+  .preloader .my-name h1 {
+    font-size: calc(1.2rem + 3.9vw);
+  }
+
+  .preloader .identity h4 {
+    font-size: calc(0.9rem + 0.1vw);
+  }
+
+  .social-links {
+    left: 5%;
+  }
+
+  .bg-home-section .home-page-my-name {
+    font-size: 24px;
+  }
+
+  .bg-home-section .home-page-status {
+    font-size: 0.9rem;
+  }
+
+  .auto-typing {
+    font-size: 15px;
+  }
+
+  .footer .email {
+    font-size: 1.2rem;
+    color: #1b98f5;
+    letter-spacing: 0px;
+    text-shadow: none;
+    font-weight: 600;
+  }
+
+  .footer .email:hover {
+    text-shadow: none;
+  }
+
+  .about-page {
+    width: 90%;
+  }
+
+  .about-page p,
+  .about-page p a {
+    font-size: 1.2rem;
+  }
+
+  .admin-dashboard h4 {
+    font-size: 2.8rem;
+  }
+
+  .project-container .card-body .card-inside-hover-body .project-github-link {
+    width: 35px;
+  }
+
+  .contact-page-aos[data-aos="fade-up"] {
+    display: none;
+  }
+}
+
+
+/* For Mansory Grid */
+.my-masonry-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -30px;
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px;
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column > div {
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+@media (max-width: 360px) {
+  .contact-page {
+    height: 130vh;
+  }
+}
+
+/* @media (max-width: 768px) {
+  
+} */
+
+@media (min-width: 576px) {
+  .about-page p {
+    text-align: justify;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer .email {
+    font-size: 1.4rem;
+  }
+
+  .footer .copy {
+    font-size: 1.1rem;
+  }
+
+  .about-page h2 {
+    font-size: 3.5rem;
+  }
+
+  .about-page p {
+    font-size: 1.8rem;
+  }
+
+  .about-page p a {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 2400px) {
+  .navbar-nav .nav-link {
+    font-size: 1.5rem;
+  }
+
+  .social-media-container-item {
+    font-size: 1.5rem;
+  }
+
+  .footer .email {
+    font-size: 1.6rem;
+  }
+
+  .footer .copy {
+    font-size: 1.5rem;
+  }
+
+  .contact-page .contact-for-freelancing .services-heading {
+    font-size: 1.7rem;
+  }
+
+  .contact-page .contact-for-freelancing ol li {
+    font-size: 1.3rem;
+  }
+}
